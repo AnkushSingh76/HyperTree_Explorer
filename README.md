@@ -2,6 +2,10 @@
 
 This project demonstrates a Decision Tree Classifier implemented with Scikit-Learn and visualized using Streamlit. It allows users to explore and visualize how different hyperparameters affect the performance of the Decision Tree model on a synthetic dataset.
 
+##Demo
+
+Try the live demo on Streamlit: [HyperTree Explorer Demo](https://hyperparameters-in-decision-tree-classifier.streamlit.app/)
+
 ## Features
 
 - **Interactive Parameter Selection**: Adjust hyperparameters like criterion, splitter, max depth, minimum samples split, minimum samples leaf, max features, max leaf nodes, and minimum impurity decrease using the Streamlit sidebar.
@@ -27,17 +31,6 @@ This project demonstrates a Decision Tree Classifier implemented with Scikit-Lea
 - **Max Leaf Nodes**: Grow a tree with the maximum number of leaf nodes.
 - **Min Impurity Decrease**: A node will be split if this split induces a decrease in impurity greater than or equal to this value.
 
-## Examples
-
-![Decision Boundary](example_boundary.png)
-
-## Contributing
-
-Feel free to contribute by opening issues or submitting pull requests.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
